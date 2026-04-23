@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# iOS build artifacts
+ios/App/Pods/
+ios/App/App/public/
+ios/App/DerivedData/
+ios/App/*.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/
+
+# Compiled output
+www/native/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Local database backups (never commit — server-side backup_snapshots is canonical)
+backups/
+# Legacy history archive — preserved for rollback, not tracked
+.git-legacy-barinv-history.tar.gz

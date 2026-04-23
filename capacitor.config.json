@@ -1,0 +1,33 @@
+{
+  "appId": "com.aiproinv.agent",
+  "appName": "aiProINV Agent",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "always",
+    "allowsLinkPreview": false,
+    "scrollEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#1a1a1a",
+      "showSpinner": false,
+      "launchFadeOutDuration": 300
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#1a1a1a"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "Camera": {
+      "presentationStyle": "fullscreen"
+    },
+    "Keyboard": {
+      "resize": "body",
+      "resizeOnFullScreen": true
+    }
+  }
+}
