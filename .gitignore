@@ -26,3 +26,4 @@ Thumbs.db
 backups/
 # Legacy history archive — preserved for rollback, not tracked
 .git-legacy-barinv-history.tar.gz
+supabase/.temp/
