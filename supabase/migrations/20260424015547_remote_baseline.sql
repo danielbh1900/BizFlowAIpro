@@ -2,7 +2,6 @@
 -- PostgreSQL database dump
 --
 
-\restrict qD3M1Jg2n6749axSaTPx4FeEtc9TYZiYg9nteOXlUUitS0de2jOsq0XXzDSOgtP
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 18.3
@@ -5341,5 +5340,4 @@ CREATE POLICY warehouse_transfers_update_v ON public.warehouse_transfers FOR UPD
 -- PostgreSQL database dump complete
 --
 
-\unrestrict qD3M1Jg2n6749axSaTPx4FeEtc9TYZiYg9nteOXlUUitS0de2jOsq0XXzDSOgtP
 
